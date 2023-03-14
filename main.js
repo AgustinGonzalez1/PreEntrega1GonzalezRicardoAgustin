@@ -112,7 +112,7 @@ while (continuar) {
 			let listaProductos = "";
 			// Variable i para que ponga a modo de lista los productos
 			let i = 1;
-			// Función de orden superior para recorrer el array de los productos y ponerlos en forma de lista
+			// Función de orden superior forEach para recorrer el array de los productos y ponerlos en forma de lista
 			prod.forEach((producto) => {
 				listaProductos += `${i} - ${producto.nombre} $${producto.precio}\n`;
 				i++;
@@ -169,7 +169,7 @@ while (continuar) {
 				// Función de orden superior sort() para ordenar los productos del carrito de menor a mayor
 				carrito.sort((a, b) => b.precio - a.precio);
 				let mensaje = "Carrito:\n";
-				// Función de orden superior para recorrer los productos agregados al carrito y mostrarlos en forma de lista, ordenados de mayor a menor
+				// Función de orden superior forEach para recorrer los productos agregados al carrito y mostrarlos en forma de lista, ordenados de mayor a menor
 				carrito.forEach((producto) => {
 					mensaje += `${producto.nombre} - $${producto.precio}\n`;
 					// Sumar el precio del producto al total
