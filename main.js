@@ -29,6 +29,9 @@ let total = 0;
 let continuar = true;
 
 while (continuar) {
+	// Mensaje de bienvenida
+	alert(`Bienvenido! que disfrute su recorrido!`);
+
 	// Pedir al usuario que seleccione una opción
 	let entrada = parseFloat(
 		prompt(
