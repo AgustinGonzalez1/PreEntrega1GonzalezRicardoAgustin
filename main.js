@@ -28,10 +28,10 @@ let total = 0;
 // Variable inicializada en true para que el bucle inicie
 let continuar = true;
 
-while (continuar) {
-	// Mensaje de bienvenida
-	alert(`Bienvenido! que disfrute su recorrido!`);
+// Mensaje de bienvenida
+alert(`Bienvenido! que disfrute su recorrido!`);
 
+while (continuar) {
 	// Pedir al usuario que seleccione una opción
 	let entrada = parseFloat(
 		prompt(
